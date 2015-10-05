@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var i int
-var c, python, java bool
+var i, j int = 1, 2
+var c, python, java = true, false, "no!"
 
 func main() {
 	fmt.Println(i, c, python, java)
